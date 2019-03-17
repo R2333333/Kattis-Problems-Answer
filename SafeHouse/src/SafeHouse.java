@@ -35,7 +35,6 @@ public class SafeHouse {
                         hlist.add(j);
                         hMap.put(i,hlist);
                     }
-//                    System.out.println("H"+i+","+j);
                 }
                 if (grid[i][j] == 'S'){
 
@@ -46,7 +45,6 @@ public class SafeHouse {
                         slist.add(j);
                         sMap.put(i,slist);
                     }
-//                    System.out.println(i+","+j);
                 }
             }
         }
@@ -61,25 +59,27 @@ public class SafeHouse {
                 for (int hx : hMap.keySet()){
 
                     for (int hy : hMap.get(hx)){
-                        if ( Math.abs(sx-hx) + Math.abs(sy - hy) < nearest)
-                            nearest = Math.abs(sx-hx) + Math.abs(sy - hy);
+                        if ( Math.abs(sx-hx) + Math.abs(sy - hy) < nearest) {
+                            nearest = Math.abs(sx - hx) + Math.abs(sy - hy);
+
+                        }
                     }
-
+//                    System.out.println(nearest+"nearest");
                 }
-
-
+                max.add(nearest);
+                nearest = 2*size;
             }
 
-            max.add(nearest);
 
-            nearest = 2*size;
         }
 
         Collections.sort(max);
 
+
         System.out.print((max).getLast());
 
- 
+
+
 
     }
 }
