@@ -25,11 +25,8 @@ public class BakeGears {
 
         input.close();
 
-
         long toBeSort[][] = new long[sprockets[0] * sprockets[1]][2];
-        int row;
-        row = 0;
-
+        int row = 0;
 
         for (long f: front) {
             for (long b : back){
@@ -40,27 +37,13 @@ public class BakeGears {
             }
         }
 
-
         Arrays.sort(toBeSort, (long a[], long b[]) -> ((a[0]*b[1] == a[1]*b[0])?
                 Long.compare(a[0],b[0]):
                 Long.compare(a[0] * b[1],a[1] * b[0])));
-//            @Override
-//            public int compare(long a[], long b[]){
-
-
-//
-
-
-
 
         for (long elem[]: toBeSort){
-
-                    System.out.println("(" + elem[0] + "," + elem[1]+")");
-
+            System.out.println("(" + elem[0] + "," + elem[1]+")");
         }
-
-
-
 
     }
 
