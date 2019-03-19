@@ -13,3 +13,7 @@
 [Aaah!](https://github.com/R2333333/Kattis-Problems-Answer/blob/master/Aaah!/src/Aaah.java): [Original Question](https://open.kattis.com/problems/aaah)
 
 [RationalSequence](https://github.com/R2333333/Kattis-Problems-Answer/blob/master/RationalSequence2/src/RetionalSequence.java): [Original Question](https://open.kattis.com/problems/rationalsequence2)
+
+[ABC](https://github.com/R2333333/Kattis-Problems-Answer/tree/master/src/ABC.java): [Question](https://open.kattis.com/problems/abc)
+
+[RationalNumber1](https://github.com/R2333333/Kattis-Problems-Answer/tree/master/src/RationalNumber1.java): [Question](https://open.kattis.com/problems/rationalsequence)
