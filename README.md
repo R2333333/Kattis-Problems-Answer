@@ -17,3 +17,9 @@
 [ABC](https://github.com/R2333333/Kattis-Problems-Answer/tree/master/src/ABC.java): [Question](https://open.kattis.com/problems/abc)
 
 [RationalNumber1](https://github.com/R2333333/Kattis-Problems-Answer/tree/master/src/RationalNumber1.java): [Question](https://open.kattis.com/problems/rationalsequence)
+
+[A Price No One Can Win](https://github.com/R2333333/Kattis-Problems-Answer/blob/master/src/aprizenoonecanwin.java): [Question](https://open.kattis.com/problems/aprizenoonecanwin)
+
+[Tarifa](https://github.com/R2333333/Kattis-Problems-Answer/blob/master/src/Tarifa.java): [Question](https://open.kattis.com/problems/tarifa)
+
+[Above Average](https://github.com/R2333333/Kattis-Problems-Answer/blob/master/src/AboveAverage.java) :[Question](https://open.kattis.com/problems/aboveaverage)
